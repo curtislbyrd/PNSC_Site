@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent Marker');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Rubik Wet Paint');
+
+.container{
+ margin: 0;
+ display:flex;
+ flex-direction:column;
+ background-image: url('../assets/img/bgPink.png');
+ position: absolute;
+ top: 118px;
+ right: 0;
+ bottom: 0;
+ left: 0;
+}
+
+ .topcontent{
+  color: white;
+  text-align: center;
+  position: absolute;
+  padding-top: 100px;
+  padding-right: 5%;
+  padding-bottom: 0px;
+  padding-left: 5%;
+ }
+ .centercontent{
+  color: white;
+  text-align: center;
+  width: 30%;
+  height: auto;
+  margin: 200 auto;
+  padding: 10px;
+  position: relative;
+ }
+.leftspacer{
+  color: white;
+  text-align: center;
+  width: 30%;
+  height: auto;
+  margin: 200 auto;
+  padding: 10px;
+  position: relative;
+ }
+.rightspacer{
+  color: white;
+  text-align: center;
+  width: 50%;
+  height: auto;
+  margin: 200 auto;
+  padding: 10px;
+  position: relative;
+ }
+
+.hspacer{
+  width: 15vw;
+}
+
+ .bottomleft{
+ position: absolute;
+ bottom: 0%;
+ vertical-align: bottom;
+ z-index:-1;
+ 
+ }
+
+  .whiteText{
+    color: white;
+    font-family: 'Permanent Marker', sans-serif;
+    font-weight: 900;
+    font-size: 2.75em;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    user-select: none;
+  }
+
+.smallWhiteText{
+  font-family: 'Oswald', sans-serif;
+}
+
+
+

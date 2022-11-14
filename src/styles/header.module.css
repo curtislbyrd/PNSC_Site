@@ -1,0 +1,36 @@
+.header{
+    display:flex;
+    flex-direction:row;
+    backgroundcolor: #121212;
+    color: #fff;
+    justify-content: space-between;
+}
+
+.iconsTable{
+    display:flex;
+    flex-direction:row;
+    padding: 3;
+    margin-top: auto;
+    justify-content: center;
+
+}
+
+
+.header{
+  display:flex;
+  flex-direction:row;
+  backgroundcolor: #black;
+  color: #fff;
+  justify-content: space-between;
+}
+
+.menu{
+  display:flex;
+  flex-direction: row;
+}
+
+@media all and (max-width: 700px){
+.bottomleft {
+    display: none;
+}
+}

@@ -1,0 +1,30 @@
+html{
+    height: 100%;
+    margin: 0;
+}
+
+body {
+margin: 0;
+height: 100%;
+width: 100%;
+position: absolute;
+background-size: cover;
+user-select: none;
+
+background-repeat: no-repeat;
+background-color: #121212 !important;
+
+font-family: BlinkMacSystemFont, Permanent Marker, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
+
+display: flex;
+flex-direction: column;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
