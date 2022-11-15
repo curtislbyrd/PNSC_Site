@@ -103,7 +103,7 @@ export function SHRModal(NftData: any) {
             <FinishModal />
           </ModalBody>
           <ModalFooter>
-            <CTAButton />
+   
           </ModalFooter>
         </ModalContent>
       </Modal>
