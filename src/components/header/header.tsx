@@ -3,6 +3,9 @@ import Image from 'next/image';
 import container from '../../styles/header.module.css';
 import { useAutoConnect } from '../../contexts/AutoConnectProvider';
 
+
+import { Link } from '@chakra-ui/react'
+
 //import { useAutoConnect } from '@solana/wallet-adapter-react-ui';
 //import { WalletMultiButton } from '@solana/wallet-adapter-react-ui';
 
@@ -34,9 +37,9 @@ export const Header: FC = props => {
     
       <header className={container.header}>
         <div>
-        <a href="/">
+        <Link href='https://splnftforum.gitbook.io/pnsc-whitepaper-v1/' > 
           <Image src={PNSCLOGO} width="200" height="112" alt="PNSC Logo" />
-        </a>
+        </Link>
         </div>
           <HeaderMenu />
         <div className={container.menu}>
