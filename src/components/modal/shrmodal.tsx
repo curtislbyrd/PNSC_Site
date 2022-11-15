@@ -21,7 +21,6 @@ import {
 } from '@chakra-ui/react';
 
 import { FinishModal } from './finishmodal'
-import { CTAButton } from '../candy/MintButton'
 //styles
 import container from '../../styles/modal.module.css';
 
@@ -101,7 +100,7 @@ export function SHRModal(NftData: any) {
             </SimpleGrid>
             <br></br>
             <Text fontSize='xs'> Clicking START THE MERGE will allow your High Roller to consume your High Juice and start the reaction to merge into a Super High Roller. Reactions may vary. </Text>
-
+            <FinishModal />
           </ModalBody>
           <ModalFooter>
             <CTAButton />
