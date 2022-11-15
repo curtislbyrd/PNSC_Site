@@ -12,7 +12,7 @@ export const MainContent: NextPage = () => {
       <main className={container.container}>
         <div className={container.topcontent}>
           <div className={container.whiteText}> Welcome Degens</div>
-           <div className={container.smallWhiteText}> The Probably Nothing Social Club (PNSC) is a club developed for degenerates, flippers, noodle fingered meat-space escapees and diamond handed gods. Join us as we try to discover what the fuck is going with reality. Let's ride the Kali Yuga together and become one with the vibrations of the multi-verse.
+           <div className={container.smallWhiteText}> The Probably Nothing Social Club (PNSC) is a club developed for degenerates, flippers, noodle fingered meat-space escapees and diamond handed gods. Join us as we try to discover what the fuck is going with reality. Let&quot;s ride the Kali Yuga together and become one with the vibrations of the multi-verse.
              </div>
           <div>
             <Image src={discord} width="60" height="60" alt=""/>
