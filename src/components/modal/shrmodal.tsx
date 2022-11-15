@@ -31,7 +31,7 @@ import container from '../../styles/modal.module.css';
 //import hr from '../../assets/img/hr.png';
 
 
-export function SHRModal(NftData) {
+export function SHRModal(NftData: any) {
   const { isOpen, onOpen, onClose } = useDisclosure()
 
   //console.log(`This is the NFT Data: ${JSON.stringify(NftData)}`);
