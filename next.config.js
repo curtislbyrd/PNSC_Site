@@ -1,9 +1,13 @@
 // next.config.js
 module.exports = {
-  reactStrictMode: true,
-  webpack(config) {
+    eslint: {
+    // Warning: This allows production builds to successfully complete even if
+    // your project has ESLint errors.
+    ignoreDuringBuilds: true,
+    reactStrictMode: true,
+    webpack(config) {
     config.cache = true,
-      config.infrastructureLogging = { level: 'info' }
+    config.infrastructureLogging = { level: 'info' }
     return config;
   },
   images: {
