@@ -16,7 +16,7 @@ export const MergeContent: NextPage = () => {
   const [HJData, setHJData] = useState({});
   const [HRData, setHRData] = useState({});
 
-  const updateNft = nft => {
+  const updateNft = (nft: any) => {
     //console.log(`NFT data: ${JSON.stringify(nft)}`);
     setParNft(nft);
     // Call function to add selected nft to obj
