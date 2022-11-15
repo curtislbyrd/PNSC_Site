@@ -59,7 +59,7 @@ export function RankContainer() {
 
   // Get NFT Lookup Number
   const [value, setValue] = useState(100)
-  const nftID = useRef(null);
+  const nftID = useRef({});
 
   const handleClick = () => {
     setValue(+nftID.current.value);
