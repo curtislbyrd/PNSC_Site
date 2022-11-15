@@ -130,7 +130,7 @@ export function RankContainer() {
         <Box color='white' fontSize='xl'>
               PNSC HIGH ROLLER {value}
             </Box>
-        <Box as='span' color='gray.600' fontSize='md' fontFamily='mono' color='white'>
+        <Box as='span' color='gray.600' fontSize='md' fontFamily='mono'>
             HowRare.is Rank: {HRData.rare}
           </Box>
       </Flex>
