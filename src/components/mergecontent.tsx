@@ -24,7 +24,8 @@ export const MergeContent: NextPage = () => {
 
   useEffect(() => {
     //console.log(`parNft: ${JSON.stringify(parNft)}`);
-
+let parNft: any = {}
+      
     if (parNft.data) {
       if (parNft.data.symbol == "PNSCHR") {
         setHRData(parNft['data']);
