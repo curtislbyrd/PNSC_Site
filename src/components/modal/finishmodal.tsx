@@ -40,7 +40,7 @@ const candyMachine = metaplex
 
 
 
-export function FinishModal(NftData) {
+export function FinishModal(NftData: any) {
   const { isOpen, onOpen, onClose } = useDisclosure()
 
   console.log(JSON.stringify(NftData));
