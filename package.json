@@ -1,11 +1,11 @@
 {
-    "name": "@solana/wallet-adapter-nextjs-starter",
-    "version": "0.8.11",
-    "author": "Solana Maintainers <maintainers@solana.foundation>",
-    "repository": "https://github.com/solana-labs/wallet-adapter",
+    "name": "PNSC",
+    "version": "1.0.01",
+    "author": "PNSC Crew",
+    "repository": "https://github.com/curtislbyrd/PNSC_Site",
     "license": "Apache-2.0",
     "engines": {
-        "node": ">=16"
+        "node": ">=18"
     },
     "publishConfig": {
         "access": "public"
@@ -38,7 +38,6 @@
         "@emotion/core": "^10.3.1",
         "@emotion/react": "^11.10.4",
         "@emotion/styled": "^11.10.5",
-        "@material-ui/core": "^4.12.4",
         "@metaplex-foundation/js": "^0.15.0",
         "@metaplex-foundation/mpl-token-metadata": "^1.2.5",
         "@next-tools/dynamic": "^0.0.11",
