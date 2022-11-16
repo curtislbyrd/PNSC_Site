@@ -2,7 +2,7 @@ import type { NextPage } from 'next';
 import Image from 'next/image';
 import React from 'react';
 import container from '../styles/mainpage.module.css';
-
+import { Link } from '@chakra-ui/react'
 import HR from '../assets/img/HRLeftBottom.png'
 import discord from '../assets/img/whiteDiscord.png';
 
@@ -15,11 +15,13 @@ export const MainContent: NextPage = () => {
            <div className={container.smallWhiteText}> The Probably Nothing Social Club (PNSC) is a club developed for degenerates, flippers, noodle fingered meat-space escapees and diamond handed gods. Join us as we try to discover what the fuck is going with reality. Let&quot;s ride the Kali Yuga together and become one with the vibrations of the multi-verse.
              </div>
           <div>
-            <Image src={discord} width="60" height="60" alt=""/>
+            <Link href='https://discord.com/invite/ybtD4MCuHb' isExternal>
+              <Image src={discord} width="60" height="60" alt=""/></Link>
+            
           </div>
         </div>
         <div className={container.bottomleft}>
-                    <Image src={HR} />
+                    <Image src={HR} alt="ALT TEXT" />
                   </div>
 
       </main>
