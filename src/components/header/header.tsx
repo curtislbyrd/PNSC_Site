@@ -37,7 +37,7 @@ export const Header: FC = props => {
     
       <header className={container.header}>
         <div>
-        <Link href='https://splnftforum.gitbook.io/pnsc-whitepaper-v1/' > 
+        <Link href='/' > 
           <Image src={PNSCLOGO} width="200" height="112" alt="PNSC Logo" />
         </Link>
         </div>
