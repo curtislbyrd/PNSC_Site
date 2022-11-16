@@ -27,7 +27,7 @@ export const HeaderMenu = () => {
     <Box>
       <Box as="nav" bg="bg-surface" boxShadow={useColorModeValue('sm', 'sm-dark')}>
         <Container py={{ base: '4', lg: '5' }}>
-          <HStack spacing="10" justify="space-between">
+          
 
             {isDesktop ? (
               <Flex justify="space-between" flex="1">
@@ -69,13 +69,7 @@ export const HeaderMenu = () => {
             ) : (
               <></>
             )}
-          </HStack>
-        </Container>
-      </Box>
-    </Box>
-  )
-}
-          </HStack>
+          
         </Container>
       </Box>
     </Box>
