@@ -24,11 +24,13 @@ export const MergeContent: NextPage = () => {
 
   useEffect(() => {
     //console.log(`parNft: ${JSON.stringify(parNft)}`);
+  
 let parNft: any = {}
-      
+    
     if (parNft.data) {
       if (parNft.data.symbol == "PNSCHR") {
         setHRData(parNft['data']);
+
       } else if (parNft.data.symbol == "HJ") {
         setHJData(parNft['data']);
       } else if (parNft.data.symbol == "") {
@@ -52,8 +54,8 @@ let parNft: any = {}
 
     <>
       <div className={container.container}>
-              
-              <div className={container.center}><h1 className={container.bigWhiteText}>Phase 3 Trials!</h1></div>
+
+        <div className={container.center}><h1 className={container.bigWhiteText}>Phase 3 Trials!</h1></div>
         <div className={container.list}>
           <div className={container.nftHolder}>
             <h2 className={container.heading}>Step 1</h2>
