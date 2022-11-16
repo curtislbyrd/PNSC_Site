@@ -35,8 +35,8 @@ export const HeaderMenu = () => {
                   <Button colorScheme='white' variant='outline'>
                     <Link href='https://splnftforum.gitbook.io/pnsc-whitepaper-v1/' isExternal>White Paper
                     </Link></Button>
-                  <Button colorScheme='white' variant='outline'>
-                    <Link href='/merge'>The Merge </Link>
+                  <Button colorScheme='white' isLoading loadingText='Merge' variant='outline'>
+                   
                   </Button>
 
                   <Menu>
@@ -69,6 +69,12 @@ export const HeaderMenu = () => {
             ) : (
               <></>
             )}
+          </HStack>
+        </Container>
+      </Box>
+    </Box>
+  )
+}
           </HStack>
         </Container>
       </Box>
